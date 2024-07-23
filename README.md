@@ -18,3 +18,5 @@ Currently only the postal code map is available here.
 * [[Release] Postal Code Map & Minimap - New & Improved - v1.3](https://forum.cfx.re/t/release-postal-code-map-minimap-new-improved-v1-3/147458) by [Virus_City](https://forum.cfx.re/u/Virus_City)
 * [DLK HD Atlas Map For FiveM](https://aothsa.com/2021/08/08/dlk-hd-atlas-map-for-fivem/) by [DieLikeKane](https://aothsa.com/gtav-fivem-map-mods/)
 
+_Should you want any file removed from this repository, please contact the FiveNet organization email address with your request, thanks!_
+
