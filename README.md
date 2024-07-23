@@ -1,10 +1,17 @@
 # livemap-tiles
 
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/sWvkHuVQA5) [![fivenet.app Website](https://img.shields.io/badge/Website-fivenet.app-purple)](https://fivenet.app)
+
 Pre-generated livemap tiles generated from the Virus_City Postal Code Map based on the DLK HD Atlas Map (links to resources and authors in [credits section](#credits)).
 
 These are generated leaflet tiles ready to be used with FiveNet's livemap feature. They have been generated using a customized `gdal2tiles` version from [GitHub commenthol/gdal2tiles-leaflet](https://github.com/commenthol/gdal2tiles-leaflet) to work with Leaflet.
 
-To note the postal code map image file had been scaled up to a resolution of 16384x16384 before being run through `gdal2tiles`.
+To note the map image files have been scaled up to a resolution of _16384x16384_ before being run through `gdal2tiles`.
+Additionally to save storage and "optimize" the images, they have been run through `optipng` with the following options `-strip all -clobber -fix -o9`.
+
+## `tiles/` Folder
+
+Currently only the postal code map is available here.
 
 ## Credits
 
