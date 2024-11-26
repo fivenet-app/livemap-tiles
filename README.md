@@ -1,6 +1,6 @@
 # livemap-tiles
 
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/sWvkHuVQA5) [![fivenet.app Website](https://img.shields.io/badge/Website-fivenet.app-purple)](https://fivenet.app)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/ASRPPr8CeT) [![fivenet.app Website](https://img.shields.io/badge/Website-fivenet.app-purple)](https://fivenet.app)
 
 Pre-generated livemap tiles generated from the Virus_City Postal Code Map based on the DLK HD Atlas Map (links to resources and authors in [credits section](#credits)).
 
