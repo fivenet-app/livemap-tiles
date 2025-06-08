@@ -17,6 +17,11 @@ gen-tiles: gdal2tiles-leaflet
 		python3 $(BUILD_DIR)gdal2tiles-leaflet/gdal2tiles.py \
 		-l -p raster -z 1-7 -w none \
 		./maps/GTAV_POSTAL_16384x16384.jpg ./tiles/postal
+	GDAL_ALLOW_LARGE_LIBJPEG_MEM_ALLOC=true \
+	JPEGMEM=2048M \
+		python3 $(BUILD_DIR)gdal2tiles-leaflet/gdal2tiles.py \
+		-l -p raster -z 1-7 -w none \
+		./maps/GTAV_SATELITE_16384x16384.jpg ./tiles/satelite
 
 .PHONY: clean
 clean:

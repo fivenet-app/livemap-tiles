@@ -17,6 +17,7 @@ Currently only the postal code map is available here.
 
 * [Postal Code Map & Minimap - New & Improved - v1.3](https://forum.cfx.re/t/release-postal-code-map-minimap-new-improved-v1-3/147458) by [Virus_City](https://forum.cfx.re/u/Virus_City)
 * [DLK HD Atlas Map For FiveM](https://aothsa.com/2021/08/08/dlk-hd-atlas-map-for-fivem/) by [DieLikeKane](https://aothsa.com/gtav-fivem-map-mods/)
+* [Grid Overlay Map](https://www.reddit.com/r/chiliadmystery/comments/3zccne/gta_v_gtao_gridded_map_with_coordinates_xpost/) by [chiliadmystery](https://www.reddit.com/r/chiliadmystery/) on Reddit (note: I have seen this overlay posted in various places, but this is the earliest I could find it)
 
 _Should you want any file removed from this repository, please contact the FiveNet organization email address with your request, thanks!_
 
