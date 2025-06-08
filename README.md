@@ -24,6 +24,8 @@ _Should you want any file removed from this repository, please contact the FiveN
 
 ### Building Tiles
 
+You must have Python3.13 and GDAL installed to build the tiles.
+
 ```console
 # Clone the repository
 git clone https://github.com/fivenet-app/livemap-tiles.git
@@ -31,5 +33,6 @@ cd livemap-tiles
 
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+
+make tiles
 ```

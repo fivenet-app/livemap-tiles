@@ -12,17 +12,12 @@
       forEachSupportedSystem = f: nixpkgs.lib.genAttrs supportedSystems (system: f {
         pkgs = import nixpkgs {
           inherit system;
-          overlays = [ self.overlays.default ];
         };
       });
 
       unstable = import (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/master) { config = { allowUnfree = true; }; };
     in
     {
-      overlays.default = final: prev: {
-        go = final."go_${toString goMajorVersion}_${toString goMinorVersion}";
-      };
-
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           packages = with pkgs; [
