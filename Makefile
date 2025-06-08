@@ -14,7 +14,7 @@ gdal2tiles-leaflet: build_dir
 gen-tiles: gdal2tiles-leaflet
 	GDAL_ALLOW_LARGE_LIBJPEG_MEM_ALLOC=true \
 	JPEGMEM=2048M \
-		$(BUILD_DIR)gdal2tiles-leaflet/gdal2tiles.py \
+		python3 $(BUILD_DIR)gdal2tiles-leaflet/gdal2tiles.py \
 		-l -p raster -z 1-7 -w none \
 		./maps/GTAV_POSTAL_16384x16384.jpg ./tiles/postal
 
