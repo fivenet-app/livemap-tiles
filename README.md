@@ -11,14 +11,22 @@ Additionally to save storage and "optimize" the images, they have been run throu
 
 ## `tiles/` Folder
 
-Currently only the postal code map is available here.
+The `tiles/` folder contains the pre-generated tiles in a structure ready to be used with FiveNet's livemap feature.
+
+```plain
+tiles/
+├── postal/
+└── satelite/
+```
 
 ## Credits
 
-* [Postal Code Map & Minimap - New & Improved - v1.3](https://forum.cfx.re/t/release-postal-code-map-minimap-new-improved-v1-3/147458) by [Virus_City](https://forum.cfx.re/u/Virus_City)
-* [DLK HD Atlas Map For FiveM](https://aothsa.com/2021/08/08/dlk-hd-atlas-map-for-fivem/) by [DieLikeKane](https://aothsa.com/gtav-fivem-map-mods/)
-* [Grid Overlay Map](https://www.reddit.com/r/chiliadmystery/comments/3zccne/gta_v_gtao_gridded_map_with_coordinates_xpost/) by [chiliadmystery](https://www.reddit.com/r/chiliadmystery/) on Reddit (note: I have seen this overlay posted in various places, but this is the earliest I could find it)
-
+- Base Map
+    - [Postal Code Map & Minimap - New & Improved - v1.3](https://forum.cfx.re/t/release-postal-code-map-minimap-new-improved-v1-3/147458) by [Virus_City](https://forum.cfx.re/u/Virus_City)
+    - [DLK HD Atlas Map For FiveM](https://aothsa.com/2021/08/08/dlk-hd-atlas-map-for-fivem/) by [DieLikeKane](https://aothsa.com/gtav-fivem-map-mods/)
+- Cayo Perico Island
+    - [Cayo Perico Satelitte Map V3](https://forum.cfx.re/t/free-cayo-perico-satelitte-map-v3/5260282) by [jonstyle83](https://forum.cfx.re/u/johnstyle83)
+    - [Cayo Perico Atlas Postal Map](https://forum.cfx.re/t/cayo-perico-atlas-postal-map-free/5275857) by [DZ2024](https://forum.cfx.re/u/DZ2024)
 _Should you want any file removed from this repository, please contact the FiveNet organization email address with your request, thanks!_
 
 ## Development
