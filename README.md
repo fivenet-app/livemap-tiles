@@ -9,12 +9,12 @@ These are generated leaflet tiles ready to be used with FiveNet's livemap featur
 To note the map image files have been scaled up to a resolution of _16384x16384_ before being run through `gdal2tiles`.
 Additionally to save storage and "optimize" the images, they have been run through `optipng` with the following options `-strip all -clobber -fix -o9`.
 
-## `tiles/` Folder
-
-The `tiles/` folder contains the pre-generated tiles in a structure ready to be used with FiveNet's livemap feature.
+## Folders
 
 ```plain
-tiles/
+overlays/ # Contains image overlays for FiveNet's livemap feature.
+└── cayo-perico
+tiles/ # Contains the pre-generated tiles in a structure ready to be used with FiveNet's livemap feature.
 ├── postal/
 └── satelite/
 ```
@@ -43,5 +43,6 @@ cd livemap-tiles
 python3 -m venv .venv
 source .venv/bin/activate
 
-make tiles
+make gen-tiles
+make optimize-tiles
 ```

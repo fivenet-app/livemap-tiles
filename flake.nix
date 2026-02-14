@@ -24,6 +24,8 @@
             python313
 
             python313Packages.gdal
+
+            imagemagick
           ];
         };
       });

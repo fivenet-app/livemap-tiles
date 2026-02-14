@@ -2,3 +2,5 @@
 .direnv/
 .venv/
 maps/*
+
+gdal2tiles-leaflet/
