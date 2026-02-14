@@ -34,7 +34,7 @@ optimize-tiles:
 	# Convert PNG tiles to WebP format
 	sed -i 's/png/webp/g' tiles/**/tilemapresource.xml
 	find ./tiles/ -iname '*.png' -print0 | \
-		xargs -n1 -P16 -0 sh -c 'cwebp -q 100 "$0" -o "${0%.png}.webp"'
+		xargs -n1 -P16 -0 sh -c 'cwebp -q 95 "$0" -o "${0%.png}.webp"'
 
 	# Remove original PNG tiles
 	find ./tiles/ -iname '*.png' -print0 | \
