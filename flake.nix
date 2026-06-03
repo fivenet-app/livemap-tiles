@@ -3,7 +3,7 @@
   description = "Basic flake for livemap-tiles development";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=release-26.05";
   };
 
   outputs = { self, nixpkgs }:
