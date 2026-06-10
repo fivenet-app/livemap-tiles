@@ -16,7 +16,7 @@ overlays/ # Contains image overlays for FiveNet's livemap feature.
 └── cayo-perico
 tiles/ # Contains the pre-generated tiles in a structure ready to be used with FiveNet's livemap feature.
 ├── postal/
-└── satelite/
+└── satellite/
 ```
 
 ## Credits
